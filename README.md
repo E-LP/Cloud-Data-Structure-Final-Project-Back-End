@@ -6,7 +6,7 @@
 2. Installez Insomnia (ou l'outil de test API de votre choix) et importez la collection fournie dans [insomnia-collection.json](insomnia-collection.json)
 3. Si vous n'en avez pas, créez une base de données sur Mongo Atlas
 4. Créez un fichier `.env` contenant (remplacez par vos données) :
-    > MONGO_URI=mongodb+srv://USERNAME:PASSWORD@CLUSTER_URL/paris-films?retryWrites=true&w=majority
+    > MONGO_URI=mongodb+srv://USERNAME:PASSWORD@CLUSTER_URL/?retryWrites=true&w=majority
     >
     > JWT_SECRET=votre-jwt-secret
 5. Installez NodeJS
